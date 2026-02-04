@@ -21,4 +21,4 @@ CSS3: Custom styling with Flexbox/Grid for a modern look and feel.
 
 JavaScript (ES6+): Dynamic DOM manipulation and logic handling.
 
-git clone https://github.com/your-username/computer-center-app.git
+git clone (https://github.com/pritampp2004/Computer-Training-Center-Application-WEBPAGE)
