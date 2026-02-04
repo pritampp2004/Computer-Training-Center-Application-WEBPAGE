@@ -1,0 +1,60 @@
+<html>
+    <title>youth comm</title>
+    <head>
+        <script type="text/javascript">
+            function blinking_header()
+            {
+             if(!document.getElementById('blink').style.color)
+                {
+                    document.getElementById('blink').style.color="red";
+                }
+            if(document.getElementById('blink').style.color=="red")
+            {
+                document.getElementById('blink').style.color="black"; 
+            }
+            else
+            {
+                document.getElementById('blink').style.color="red";
+            }
+            timer=setTimeout("blinking_header()",100);
+            }
+
+            function stoptimer()
+            {
+                clearTimeout(timer);
+            }
+        </script>
+    </head>
+    <Script language="javascript">
+        <!---
+            function connect() 
+            {
+                location.replace("main.html")
+            }
+            
+            //-->
+    </Script>
+    <body bgcolor="teal">
+       <body onload="blinking_header()" onunload="stoptimer()">
+        <h1 id="blink">Certificate In Information Technology Application <center>[CITA]</center> <hr color="yellow" width="90%">      
+        </h1>
+        <br><br><b><font size=7 color="blue">
+            Duration : 6 Months
+        </font>
+        <font size=6>
+         <ul><font color="purple">
+        <li><font color=black>Fundamentals of Computer</font>
+            <li><font color=black>Operating System-Dos & Windows'98</font>  
+            <li><font color=black>MS-OFFICE'2000 (Word,Excel & Powerpoint) </font>   
+            <li><font color=black>Database Management System (Foxpro) </font> 
+            <li><font color="black" size=6>Module on Development of English Communication Skills <br>
+            </font></ul></b>  
+            <font color="blue"><h6>
+                Eligibility :Madhyamik, Course Fees:Rs.1500+Rs.100(admisiion Fee)=Rs.1600/-</font></h6><br>
+                <hr color="blaack" width="125%">
+                <br><br>
+                <center>
+                    <input type="button" value="To Return Main Page" onclick="connect()">
+                </center>
+    </body>
+</html>
